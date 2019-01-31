@@ -8,9 +8,9 @@
 
       @if(count($skills) > 0)
 
-        <ul>
+        <ul class="list-group">
         @foreach($skills as $skill)
-          <li> {{$skill}} </li>
+          <li class="list-group-item"> {{$skill}} </li>
         @endforeach
         </ul>
 
